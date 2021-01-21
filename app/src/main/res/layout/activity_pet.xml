@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_column="3"
+    android:layout_row="3">
+
+        <ImageView
+            android:id="@+id/petView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imgHome"
+            android:layout_gravity="center"
+            android:background="@drawable/home"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:visibility="gone"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <ImageView
+            android:id="@+id/imgCart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cart"
+            android:visibility="gone"
+            android:layout_row="1"
+            android:layout_column="0"/>
+
+        <ImageView
+            android:id="@+id/imgCamera"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:background="@drawable/camera"
+            android:visibility="gone"
+            android:layout_row="1"
+            android:layout_column="2"/>
+
+        <TextView
+            android:id="@+id/petName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="旺仔"
+            android:textColor="#66cccc"
+            android:textSize="15sp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:gravity="center"/>
+
+</GridLayout>

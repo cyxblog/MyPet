@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode_list">
+        <item>狐狸</item>
+        <item>山竹</item>
+        <item>海狮</item>
+        <item>妙蛙</item>
+        <item>旺仔</item>
+    </string-array>
+</resources>
